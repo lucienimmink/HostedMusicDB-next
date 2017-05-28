@@ -17,6 +17,7 @@
     <Application Id="App" StartPage="https://www.arielext.org:16882">
       <uap:ApplicationContentUriRules>
         <uap:Rule Match="https://www.arielext.org:16882" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="http://localhost:3000/" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements DisplayName="HostedMusicDB next" Description="HostedMusicDB next" BackgroundColor="transparent" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\LargeTile.png" Square71x71Logo="images\SmallTile.png">
